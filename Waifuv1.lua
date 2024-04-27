@@ -12,7 +12,7 @@ ImageButton1.BorderSizePixel = 0
 ImageButton1.Position = UDim2.new(0.120833337, 0, 0.0952890813, 0)
 ImageButton1.Size = UDim2.new(0, 50, 0, 50)
 ImageButton1.Draggable = true
-ImageButton1.Image = "rbxassetid://14161592006"
+ImageButton1.Image = "rbxassetid://17298754409"
 ImageButton1.MouseButton1Down:connect(function()
   game:GetService("VirtualInputManager"):SendKeyEvent(true,305,false,game)
   game:GetService("VirtualInputManager"):SendKeyEvent(false,305,false,game)
@@ -277,7 +277,7 @@ function Update:Window(text,logo,keybind)
 	Logo.BackgroundTransparency = 1.000
 	Logo.Position = UDim2.new(0, -5, 0, -5)
 	Logo.Size = UDim2.new(0, 135, 0, 135)
-	Logo.Image = "rbxassetid://14094405648"
+	Logo.Image = "rbxassetid://17298754409"
     local Tab = Instance.new("Frame")
     Tab.Name = "Tab"
     Tab.Parent = Main
@@ -403,7 +403,7 @@ function Update:Window(text,logo,keybind)
         IDK.BackgroundTransparency = 1.000
         IDK.Position = UDim2.new(0, 3, 0, 3)
         IDK.Size = UDim2.new(0, 20, 0, 20)
-        IDK.Image = "rbxassetid://" .. tostring(img)
+        IDK.Image = "rbxassetid://17298754409" .. tostring(img)
         TUICorner.CornerRadius = UDim.new(0, 3)
         TUICorner.Parent = TabButton
 
@@ -679,7 +679,7 @@ function Update:Window(text,logo,keybind)
         ImageButton.BorderSizePixel = 0
         ImageButton.Position = UDim2.new(0, 350, 0, 6)
         ImageButton.Size = UDim2.new(0, 20, 0, 20)
-        ImageButton.Image = "rbxassetid://14161592006"
+        ImageButton.Image = "rbxassetid://17298754409"
         ImageButton.ImageColor3 = Color3.fromRGB(255, 255, 255)
 
         UICorner_2.CornerRadius = UDim.new(0, 5)
@@ -789,7 +789,7 @@ function Update:Window(text,logo,keybind)
         ImageLabel.BorderSizePixel = 0
         ImageLabel.Position = UDim2.new(0, 5, 0, 6)
         ImageLabel.Size = UDim2.new(0, 20, 0, 20)
-        ImageLabel.Image = "rbxassetid://14161592006"
+        ImageLabel.Image = "rbxassetid://17298754409"
         ImageLabel.ImageColor3 = Color3.fromRGB(255, 255, 255)
 
         Space.Name = "Space"
@@ -823,7 +823,7 @@ function Update:Window(text,logo,keybind)
         ImageButton.Position = UDim2.new(0, 352, 0, 4)
         ImageButton.Size = UDim2.new(0, 23, 0, 23)
         ImageButton.ZIndex = 2
-        ImageButton.Image = "rbxassetid://3926311105"
+        ImageButton.Image = "rbxassetid://17298754409"
         ImageButton.ImageColor3 = Color3.fromRGB(255, 255, 255)
         ImageButton.ImageRectOffset = Vector2.new(940, 784)
         ImageButton.ImageRectSize = Vector2.new(48, 48)
@@ -941,7 +941,7 @@ function Update:Window(text,logo,keybind)
         DropImage.Position = UDim2.new(0, 350, 0, 6)
         DropImage.Rotation = 180.000
         DropImage.Size = UDim2.new(0, 20, 0, 20)
-        DropImage.Image = "rbxassetid://6031090990"
+        DropImage.Image = "rbxassetid://17298754409"
 
         for i,v in next,option do
             local Item = Instance.new("TextButton")
@@ -1143,7 +1143,7 @@ function Update:Window(text,logo,keybind)
         ImageLabel.BorderSizePixel = 0
         ImageLabel.Position = UDim2.new(0, 7.5, 0, 7.5)
         ImageLabel.Size = UDim2.new(0, 30, 0, 30)
-        ImageLabel.Image = "rbxassetid://14161592006"
+        ImageLabel.Image = "rbxassetid://17298754409"
             
         Title.Parent = SliderFrame_2
         Title.BackgroundColor3 = Color3.fromRGB(150, 150, 150)
